@@ -144,6 +144,95 @@
         </div>
 
     </section>
+
+    <div class="space"></div>
+
+    <section class="products" id="products">
+
+        <!-- <h1 class="heading">Contact <span> Lens</span> </h1> -->
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="img/imm1 (1).png" alt="" style="height: 100%;
+                    object-fit: cover;
+                    overflow:hidden;
+                    width: 80%;
+                    border-radius: 30px;">
+                </div>
+                <div class="content">
+                    <h3>OCA, GOTS, and Textile Exchange announce new labs for qualitative GMO </h3>
+                    <p id="paragraph">The reinvention of the organic cotton supply chain
+                        depends on farmers feeling con</p>
+                    <span class="tt" id="readMore" style="display: ;     font-size: 15px; cursor: pointer;     
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300;" onclick="showMore()">[READ MORE]</span>
+                    <span class="tt" id="readLess" style="display:none ;     font-size: 15px; cursor: pointer;
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300;" onclick="showLess()"> [READ LESS]</span>
+
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="img/imm1 (2).png" alt="" style="height: 100%;
+                    object-fit: cover;
+                    overflow:hidden;
+                    width: 80%;
+                    border-radius: 30px;">
+                </div>
+                <div class="content">
+                    <h3>OCA welcomes four new Contributors joining the platform</h3>
+                    <p id="paragraph1">Farmers face pressure from high input costs and
+                        volatile markets.
+                        OCA promotes reg</p>
+                    <span class="tt" id="readMore1" style="display: ;  font-size: 15px; cursor: pointer;     
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300; " onclick="showMore1()"> [READ MORE]</span>
+                    <span class="tt" id="readLess1" style="display:none ; font-size: 15px; cursor: pointer;
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300; " onclick="showLess1()"> [READ LESS]</span>
+
+                </div>
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="img/imm1 (3).png" alt="" style="height: 100%;
+                    object-fit: cover;
+                    overflow:hidden;
+                    width: 80%;
+                    border-radius: 30px;">
+                </div>
+                <div class="content">
+                    <h3>OCA Convenes Key Organic Cotton Stakeholders from Pakistan</h3>
+                    <p id="paragraph2">We want organic to be a simpler choice. Through our
+                        Implementing Part</p>
+                    </span> <span class="tt" id="readMore2" style="display: ; font-size: 15px; cursor: pointer;     
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300; " onclick="showMore2()"> [READ MORE]</span>
+                    <span class="tt" id="readLess2" style="display:none ; font-size: 15px; cursor: pointer;
+                    font-family: sans-serif;
+                    color: rgb(252, 184, 22);
+                    font-weight: 300; " onclick="showLess2()"> [READ LESS]</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
     <div class="space"></div>
     <div class="boxi5">
         <div class="section3rd_1box">
@@ -803,6 +892,86 @@
 
 
     <!-- custom js file link  -->
+    <script> var paragraph = document.getElementById("paragraph");
+        var readMore = document.getElementById("readMore");
+        var readLess = document.getElementById("readLess");
+        var originalText = paragraph.innerText;
+        var additionalText = "fident that their livelihood will be protected. OCA Contributors make purchase commitments against a better price early in the season. This gives farmers a";
+        
+        function showMore() {
+            paragraph.innerText = originalText + additionalText;
+            readMore.style.display = "none";
+            readLess.style.display = "inline";
+        }
+        
+        function showLess() {
+            paragraph.innerText = originalText;
+            readMore.style.display = "inline";
+            readLess.style.display = "none";
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        var paragraph1 = document.getElementById("paragraph1");
+        var readMore1 = document.getElementById("readMore1");
+        var readLess1 = document.getElementById("readLess1");
+        var originalText1 = paragraph1.innerText;
+        var additionalText1 = "enerative organic agriculture and guarantees demand and better prices for their cotton. We offer farmers a sustainable route to safeguarding their livelihoods";
+        
+        function showMore1() {
+            paragraph1.innerText = originalText1 + additionalText1;
+            readMore1.style.display = "none";
+            readLess1.style.display = "inline";
+        }
+        
+        function showLess1() {
+            paragraph1.innerText = originalText1;
+            readMore1.style.display = "inline";
+            readLess1.style.display = "none";
+        }
+        
+        
+        var paragraph2 = document.getElementById("paragraph2");
+        var readMore2 = document.getElementById("readMore2");
+        var readLess2 = document.getElementById("readLess2");
+        var originalText2 = paragraph2.innerText;
+        var additionalText2 = "ners, we offer farmers training and assistance so they feel confident in new practices. Farmers also receive access to non-GMO seed and other bio-inputs to support their";
+        
+        function showMore2() {
+            paragraph2.innerText = originalText2 + additionalText2;
+            readMore2.style.display = "none";
+            readLess2.style.display = "inline";
+        }
+        function showLess2() {
+            paragraph2.innerText = originalText2;
+            readMore2.style.display = "inline";
+            readLess2.style.display = "none";
+        }
+        
+        
+        
+        var paragraph3 = document.getElementById("paragraph3");
+        var readMore3 = document.getElementById("readMore3");
+        var readLess3 = document.getElementById("readLess3");
+        var originalText3 = paragraph3.innerText;
+        var additionalText3 = " social benefits at the farm level. This ensures that cultivating organic cotton in our Farm Programme has measurable benefits for farmers and positive impacts for";
+        function showMore3() {
+            paragraph3.innerText = originalText3 + additionalText3;
+            readMore3.style.display = "none"; 1
+            readLess3.style.display = "inline";
+        }
+        
+        function showLess3() {
+            paragraph3.innerText = originalText3;
+            readMore3.style.display = "inline";
+            readLess3.style.display = "none";
+        }
+        document.getElementById("hh").style.color = " #ffffff";</script>
     <script src="script.js"></script>
 
 </body>

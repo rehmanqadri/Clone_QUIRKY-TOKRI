@@ -89,36 +89,37 @@ section {
     margin-top: 25px;
 }
 
- /* All button style */
+/* All button style */
 
 
- .button_x1x {
-    background-color: #fcb816;
-    border: none;
+.button_x1x {
+    background-color: #03a9f5;
 
+    border: solid #03a9f5 1px;
     margin-top: 30px;
     font-size: 1.5rem !important;
     width: 20rem !important;
     height: 4.5rem !important;
     font-weight: 700 !important;
-    
+
     font-family: 'Montserrat', sans-serif;
     border-radius: 24px;
-    color: #002C42;
+    color: #ffffff;
 
     cursor: pointer;
 }
 
 
- .button_x1x:active {
+.button_x1x:active {
     color: white;
     box-shadow: 0 0.2rem #dfd9d9;
     transform: translateY(0.2rem);
 }
 
 .button_x1x:hover:not(:disabled) {
-    background: #002C42;
-    color: #fcb816;
+    background: #bd2a7a;
+    color: #ffffff;
+    border: none;
 
 }
 
@@ -128,16 +129,17 @@ section {
 }
 
 
- .button_3 {
+.button_3 {
     background-color: #ffffff;
     border: none;
     margin-bottom: 10px;
     margin-top: 30px;
+    margin-right: 5px;
     font-size: 1.5rem !important;
     width: 20rem !important;
     height: 4.5rem !important;
     font-weight: 700 !important;
-    
+
     font-family: 'Montserrat', sans-serif;
     border-radius: 24px;
     color: #03a9f5;
@@ -151,7 +153,7 @@ section {
 }
 
 .button_3:hover:not(:disabled) {
-    background: #03a9f5;
+    background: #bd2a7a;
     color: #ffffff;
 
 }
@@ -172,7 +174,7 @@ section {
     height: 4.5rem !important;
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif;
-   
+
     border-radius: 24px;
     color: #03a9f5;
     cursor: pointer;
@@ -185,7 +187,7 @@ section {
 }
 
 .button_4:hover:not(:disabled) {
-    background: #03a9f5;
+    background: #bd2a7a;
     color: #ffffff;
     border: solid #5278bf 1px;
     font-weight: 600;
@@ -202,23 +204,24 @@ section {
 
 .button_5 {
     margin-left: 10px;
-    background-color: #ffffff;
-    border: none;
+    background-color: #64c3e6;
+    border: solid rgb(255, 255, 255) 1px;
 
     font-size: 1.5rem !important;
     width: 20rem !important;
     height: 4.5rem !important;
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif;
-   
+
     border-radius: 24px;
-    color: #03a9f5;
+    color: #ffffff;
     cursor: pointer;
 }
 
 .button_5:hover:not(:disabled) {
-    background: #03a9f5;
+    background: #bd2a7a;
     color: #ffffff;
+    border: solid #5278bf 1px;
 
 
 
@@ -234,15 +237,15 @@ section {
     height: 4.5rem !important;
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif;
-   
+
     border-radius: 24px;
     color: #ffffff;
     cursor: pointer;
 }
 
 .button_6:hover:not(:disabled) {
-    background: #ffffff;
-    color: #5278bf;
+    background: #bd2a7a;
+    color: #ffffff;
     border: solid #5278bf 1px;
 }
 
@@ -252,7 +255,7 @@ section {
 
 
 .buttpoon_1 {
-    background-color: #DDDDDD;
+    background-color: #03a9f5;
     border: none;
     font-size: 1.5rem !important;
     width: 20rem !important;
@@ -260,7 +263,7 @@ section {
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif;
     border-radius: 24px;
-    color: #002C42;
+    color: #ffffff;
 
     cursor: pointer;
 }
@@ -272,8 +275,9 @@ section {
 }
 
 .buttpoon_1:hover:not(:disabled) {
-    background: #fcb816;
-    color: #002C42;
+    background: #bd2a7a;
+    color: #ffffff;
+    border: solid #5278bf 1px;
 
 }
 
@@ -282,14 +286,24 @@ section {
     color: grey;
 }
 
-.box_button{
+.box_button {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+.box_buttonn {
+    margin-top: 10px;
+}
+
+.box_buttonnn button:hover:not(:disabled) {
+    background: #bd2a7a;
+    color: #ffffff;
+    border: solid #5278bf 1px;
+}
 
 .box_buttonnn button {
     margin-left: 10px;
-    background-color: #EE7C8B;
+    background-color: #ffffff;
     border: none;
     margin-top: 30px;
     margin-left: -1px;
@@ -298,9 +312,9 @@ section {
     height: 4.5rem !important;
     font-weight: 700 !important;
     font-family: 'Montserrat', sans-serif;
-    
+
     border-radius: 24px;
-    color: #ffffff;
+    color: #03a9f5;
     cursor: pointer;
 }
 
@@ -309,8 +323,8 @@ section {
     display: inline-block;
     padding: .9rem 3rem;
     font-size: 1.5rem !important;
-    color: #ffffff;
-    background: #ee7c8b;
+    color: #03a9f5;
+    background: #ffffff;
     cursor: pointer;
     width: 50%;
     border-radius: 40px;
@@ -318,7 +332,9 @@ section {
 
 .btn:hover {
     letter-spacing: .2rem;
-    background: #fcb816;
+    background: #bd2a7a;
+    color: #ffffff;
+    border: solid #5278bf 1px;
 }
 
 /* button style end */
@@ -341,7 +357,6 @@ section {
 
 
 
-
 .header {
     background: var(--bg);
     display: flex;
@@ -353,8 +368,9 @@ section {
     top: 0;
     right: 0;
     left: 0;
-
-
+    z-index: 9999;
+    /* box-shadow: 0px 0px 4px rgb(135, 121, 121); */
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35);
 }
 
 .header .logo img {
@@ -388,7 +404,7 @@ section {
 }
 
 .header .icons div:hover {
-    color: var(--main-color);
+    color: #7c3087;
 }
 
 #menu-btn {
@@ -778,7 +794,7 @@ section {
 .products .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
+    gap: 3.5rem;
 }
 
 .products .box-container .box {
@@ -815,7 +831,7 @@ section {
     font-size: 1.8rem;
     line-height: 24px;
     margin-bottom: 15px;
-    color: #002c42;
+    color: #ffffff;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -825,7 +841,7 @@ section {
     font-size: 1.2rem;
     line-height: 20px;
     margin-bottom: 15px;
-    color: #002c42;
+    color: #ffffff;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1075,7 +1091,8 @@ section {
         position: absolute;
         top: 100%;
         right: -100%;
-        background: #13131a;
+        background: linear-gradient(to right, #3264f5 2%, #7004bc 82%);
+        ;
         width: 30rem;
         height: calc(100vh - 9.5rem);
     }
@@ -1337,7 +1354,7 @@ section {
 }
 
 .buttpoon_1 {
-    background-color: #DDDDDD;
+    background-color: #64c3e6;
     border: none;
 
 
@@ -1348,7 +1365,7 @@ section {
     font-weight: 550;
     font-family: 'Montserrat', sans-serif;
     border-radius: 24px;
-    color: #002C42;
+    color: #ffffff;
 
     cursor: pointer;
 }
@@ -1360,8 +1377,8 @@ section {
 }
 
 .buttpoon_1:hover:not(:disabled) {
-    background: #fcb816;
-    color: #002C42;
+    background: #bd2a7a;
+    color: #ffffff;
 
 }
 
@@ -1371,14 +1388,15 @@ section {
 }
 
 .box-container .box {
-    background-color: #DDDDDD;
+    background: linear-gradient(to right, #3264f5 32%, #7004bc 83%);
+    ;
 }
 
 
-/* .box-container .box:hover {
+.box-container .box:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
-  } */
+}
 
 
 
@@ -1405,4 +1423,96 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+#readMore:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+#readLess:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+
+#readMore {
+    display: ;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+#readLess {
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+
+
+
+#readMore1:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+#readLess1:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+#readMore1 {
+    display: ;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+#readLess1 {
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+
+
+#readMore2:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+#readLess2:hover {
+    color:#000000;
+    font-weight: 400;
+}
+
+
+#readMore2 {
+    display: ;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+#readLess2 {
+    display: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
 }

@@ -164,7 +164,7 @@ section {
 
 .button_4 {
 
-    background-color: #002C42;
+    background-color: #ffffff;
     border: solid white 1px;
 
     font-size: 1.5rem !important;
@@ -174,20 +174,20 @@ section {
     font-family: 'Montserrat', sans-serif;
    
     border-radius: 24px;
-    color: #ffffff;
+    color: #03a9f5;
     cursor: pointer;
 }
 
 .button_4:active {
     color: white;
-    box-shadow: 0 0.2rem #dfd9d900;
+    box-shadow: 0 0.2rem #dfd9d9;
     transform: translateY(0.2rem);
 }
 
 .button_4:hover:not(:disabled) {
-    background: #ffffff;
-    color: #03a9f5;
-    border: solid #03a9f5 1px;
+    background: #03a9f5;
+    color: #ffffff;
+    border: solid #5278bf 1px;
     font-weight: 600;
 
 }
@@ -202,7 +202,7 @@ section {
 
 .button_5 {
     margin-left: 10px;
-    background-color: #002C42;
+    background-color: #ffffff;
     border: none;
 
     font-size: 1.5rem !important;
@@ -212,13 +212,13 @@ section {
     font-family: 'Montserrat', sans-serif;
    
     border-radius: 24px;
-    color: #ffffff;
+    color: #03a9f5;
     cursor: pointer;
 }
 
 .button_5:hover:not(:disabled) {
-    background: #fcb816;
-    color: #002C42;
+    background: #03a9f5;
+    color: #ffffff;
 
 
 
@@ -226,7 +226,7 @@ section {
 
 .button_6 {
     margin-left: 10px;
-    background-color: #002C42;
+    background-color: #64c3e6;
     border: none;
 
     font-size: 1.5rem !important;
@@ -241,9 +241,9 @@ section {
 }
 
 .button_6:hover:not(:disabled) {
-    background: #fcb816;
-    color: #002C42;
-
+    background: #ffffff;
+    color: #5278bf;
+    border: solid #5278bf 1px;
 }
 
 
